@@ -1,6 +1,6 @@
 {
-	"type": "shaped_crafting",
-	"patterns": [
+	"type": "crafting_shaped",
+	"pattern": [
 		"MFM",
 		"FLF",
 		"F F"
