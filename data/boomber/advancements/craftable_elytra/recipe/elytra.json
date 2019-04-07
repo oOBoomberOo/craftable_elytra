@@ -1,0 +1,46 @@
+{
+	"criteria": {
+		"phantom_membrane": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:phantom_membrane"
+					}
+				]
+			}
+		},
+		"leather": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:leather"
+					}
+				]
+			}
+		},
+		"feather": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:feather"
+					}
+				]
+			}
+		},
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "boomber:craftable_elytra/elytra"
+			}
+		}
+	},
+	"requirements": [
+		["recipe", "feather", "leather"], ["phantom_membrane"]
+	],
+	"rewards": {
+		"recipes": ["boomber:craftable_elytra/elytra"]
+	}
+}

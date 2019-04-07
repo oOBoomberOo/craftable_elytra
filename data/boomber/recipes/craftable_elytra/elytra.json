@@ -1,0 +1,22 @@
+{
+	"type": "shaped_crafting",
+	"patterns": [
+		"MFM",
+		"FLF",
+		"F F"
+	],
+	"key": {
+		"M": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"F": {
+			"item": "minecraft:feather"
+		},
+		"L": {
+			"item": "minecraft:leather"
+		}
+	},
+	"result": {
+		"item": "minecraft:elytra"
+	}
+}
